@@ -1,6 +1,6 @@
 {
-    "name": "goalgorilla/social_template",
-    "description": "Social project template for composer based Open Social projects.",
+    "name": "drutopia/drutopia_template",
+    "description": "Project template for composer based Drutopia projects.",
     "type": "project",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
@@ -9,7 +9,7 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.0",
-        "goalgorilla/open_social": "^1.0"
+        "drupal/drutopia": "1.x-dev"
     },
     "repositories": [
         {
