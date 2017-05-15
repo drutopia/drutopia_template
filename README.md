@@ -1,4 +1,4 @@
-This is a composer based installer for the [Open Social distribution](http://www.drupal.org/project/social).
+This is a composer based installer for the [Drutopia distribution](http://www.drupal.org/project/drutopia).
 
 # Prerequisites
 
