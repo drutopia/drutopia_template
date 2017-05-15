@@ -11,7 +11,7 @@
         "cweagans/composer-patches": "^1.0",
         "drutopia/drutopia": "1.x-dev"
     },
-    "repositories": [
+    "repositories": {
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -20,7 +20,7 @@
             "type": "vcs",
             "url": "https://github.com/drutopia/drutopia"
         }
-    ],
+    },
     "scripts": {
       "post-install-cmd": [
         "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
