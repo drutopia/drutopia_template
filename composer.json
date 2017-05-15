@@ -1,6 +1,6 @@
 {
     "name": "drutopia/drutopia_template",
-    "description": "Project template for composer based Drutopia projects.",
+    "description": "Template for composer-based Drutopia projects.",
     "type": "project",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
