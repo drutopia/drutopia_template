@@ -12,9 +12,13 @@
         "drutopia/drutopia": "1.x-dev"
     },
     "repositories": [
-        {
+        "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "drutopia": {
+            "type": "vcs",
+            "url": "https://github.com/drutopia/drutopia"
         }
     ],
     "scripts": {
