@@ -4,7 +4,6 @@ This is a composer based installer for the [Drutopia distribution](http://www.dr
 
 1. [Composer](https://getcomposer.org/download/)
 
-It's just composer, isn't it awesome? :)
 
 ## Installation of Drutopia basic
 
