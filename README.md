@@ -2,7 +2,8 @@ This is a composer based installer for the [Drutopia distribution](http://www.dr
 
 # Prerequisites
 
-1. [Composer](https://getcomposer.org/download/)
+1. [Prepare a local server for Drupal](https://www.drupal.org/docs/develop/local-server-setup)
+2. [Install Composer](https://getcomposer.org/download/)
 
 
 ## Installation of Drutopia basic
