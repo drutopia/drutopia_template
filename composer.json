@@ -10,7 +10,7 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.0",
         "drupal/drutopia": "dev-8.x-1.x",
-        "drush/drush": "8.*@stable"
+        "drush/drush": "9.*@stable"
     },
     "repositories": {
         "drupal": {
