@@ -1,8 +1,8 @@
-/bin
-/html/core
-/html/modules/contrib
-/html/profiles/contrib
-/html/themes/contrib
-/html/sites/default/files
-vendor/
-.idea
+/web/core
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+/web/sites/default/files
+/web/index.php
+/web/update.php
+/vendor/
