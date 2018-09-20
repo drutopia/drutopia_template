@@ -26,7 +26,7 @@
     "scripts": {
         "post-install-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "post-update-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "nuke": "rm -r -f docroot/modules/contrib docroot/profiles/contrib/lightning vendor composer.lock",
+        "nuke": "rm -rf vendor web/core web/modules/contrib web/profiles/contrib drush/contrib",
         "quick-start": [
             "composer install",
             "php docroot/core/scripts/drupal quick-start drutopia --no-interaction"
