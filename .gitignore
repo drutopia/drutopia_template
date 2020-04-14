@@ -13,3 +13,5 @@
 /web/sites/example.settings.local.php
 /web/sites/example.sites.php
 /vendor/
+/.editorconfig
+/.gitattributes
