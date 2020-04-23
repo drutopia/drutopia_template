@@ -1,8 +1,13 @@
 # Drutopia-provided files which should not be overridden
+/web/.gitignore
 /web/core
+/web/modules/.gitignore
 /web/modules/contrib
+/web/profiles/.gitignore
 /web/profiles/contrib
+/web/themes/.gitignore
 /web/themes/contrib
+/web/sites/.gitignore
 /web/sites/default/files
 /web/index.php
 /web/update.php

@@ -14,7 +14,7 @@
         },
         "drutopia": {
             "type": "vcs",
-            "url": "https://github.com/drutopia/drutopia"
+            "url": "https://gitlab.com/drutopia/drutopia"
          }
     },
     "require": {
@@ -22,7 +22,7 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drutopia/drutopia": "dev-8.x-1.x"
+        "drutopia/drutopia": "1.0-rc1"
     },
     "require-dev": {
     },

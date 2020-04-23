@@ -9,21 +9,22 @@ This is a composer based installer for the [Drutopia distribution](http://www.dr
 ## Installation of Drutopia basic
 
 ```
-composer create-project drutopia/drutopia_template:dev-master --keep-vcs --no-interaction DIRECTORY
+composer create-project drutopia/drutopia_template:dev-master --no-interaction DIRECTORY
 ```
 
 Composer will create a new directory called DIRECTORY (change to whatever presumably lower-case name you would like). Inside you will find the web directory with the entire code base of [Drutopia distribution](http://www.drupal.org/project/drutopia). You should be able to install it like any other Drupal site.
 
 ## Updating
 
-You can `git pull` to get updates to Drutopia's project template including `composer.lock` files for official releases of Drutopia.
+Drutopia manages the version of Drupal core, so you should not require the `drupal/core` project. To update to a new version of core, update to the version of Drutopia that includes the new core version. For example:
 
-You can then `composer install` to update.
+```
+composer require --no-update drutopia/drutopia:~1.0-rc2
+composer update
+```
 
-## Making custom changes
+## Making and managing custom changes
 
-If you are extending Drutopia with your own chosen modules or themes, you can delete the `.git` directory and `git init` to start your own version control, or change `gitlab.com:drutopia/drutopia_template.git` as [a separate upstream repository](https://happygitwithr.com/upstream-changes.html) for your project.
+You will likely want to add the contents of this directory to git version control, including the `composer.lock` file that was created when you ran `composer create-project`.
 
-You can `composer require` a module without changing any versions.
-
-If you only run `composer update` when Drutopia provides a new release, overall you will very closely track Drutopia stable releases.
+You can `composer require` any packages such as Drupal modules you wish to add to your site.
